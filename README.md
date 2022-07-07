@@ -5,8 +5,6 @@ Web application to consume the data made available by the API(s) which stores pe
 
 ## Setting the project up
 
-## Usage
-
 ### CLI
 
 Clone this repository and execute:
@@ -30,5 +28,7 @@ or build your own image by cloning this repository and executing:
 docker build -t viniciusvviterbo/contactlistweb .
 docker run -d --rm -p 8888:8888 --name contactlist_web viniciusvviterbo/contactlistweb
 ```
+
+---
 
 **[GNU AGPL v3.0](https://www.gnu.org/licenses/agpl-3.0.html)**
