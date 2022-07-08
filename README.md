@@ -21,14 +21,14 @@ npm start
 Run the existing image by executing:
 
 ```bash
-docker pull viniciusvviterbo/contactlistweb
-docker run -d --rm -p 8888:8888 --name contactlist_web viniciusvviterbo/contactlistweb
+docker pull viniciusvviterbo/contactlistweb:latest
+docker run -d --rm -p 8888:8888 --name contactlist_web viniciusvviterbo/contactlistweb:latest
 ```
 or build your own image by cloning this repository and executing:
 
 ```bash
-docker build -t viniciusvviterbo/contactlistweb .
-docker run -d --rm -p 8888:8888 --name contactlist_web viniciusvviterbo/contactlistweb
+docker build -t viniciusvviterbo/contactlistweb:latest .
+docker run -d --rm -p 8888:8888 --name contactlist_web viniciusvviterbo/contactlistweb:latest
 ```
 
 **[GNU AGPL v3.0](https://www.gnu.org/licenses/agpl-3.0.html)**
